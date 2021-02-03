@@ -1,0 +1,11 @@
+stackbitVersion: "~0.3.0"
+ssgName: "custom"
+buildCommand: "npx @11ty/eleventy"
+publishDir: "public"
+staticDir: "static"
+uploadDir: "images"
+pagesDir: "site"
+metadata:
+  title: "mareis kreijkes"
+  description: "Theme created in Webflow and converted with Udesly"
+models: {}
