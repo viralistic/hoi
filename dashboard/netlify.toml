@@ -1,0 +1,13 @@
+[build]
+  base    = "dashboard"
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# SPA routing — all paths go to index.html
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
